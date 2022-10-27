@@ -1,0 +1,73 @@
+.fontR {
+    font-family: 'Roboto', 'sans-serif';
+}
+
+.pure {
+    color: var(--pure);
+}
+
+.dark {
+    color: var(--dark);
+}
+
+.primary {
+    color: var(--primary);
+}
+
+.flex {
+    display: flex;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.line-height-2 {
+    line-height: 38px;
+}
+
+.btn {
+    font-weight: 600;
+    font-size: 0.8rem;
+    padding: 0.8rem 3rem;
+    color: var(--primary);
+    background-color: transparent;
+    border: 2px solid var(--primary);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.btn:hover {
+    border-color: var(--primary);
+    background-color: var(--primary);
+    color: var(--dark);
+}
+
+.btn-primary {
+    color: var(--pure);
+    background-color: var(--primary);
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 0.8rem;
+    padding: 0.8rem 2rem;
+    width: 150px;
+    border: 2px solid var(--primary);
+    cursor: pointer;
+    letter-spacing: 2px;
+    transition: all 0.4s ease;
+}
+
+.btn-primary:hover {
+    border-color: var(--primary);
+    background-color: transparent;
+    color: var(--primary);
+}
